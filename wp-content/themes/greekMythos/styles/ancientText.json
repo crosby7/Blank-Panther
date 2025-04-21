@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "title": "Ancient Text",
+  "settings": {
+    "color": {
+      "palette": [
+        { "color": "#F3BC8C", "name": "Accent", "slug": "accent" },
+        { "color": "#A6977A", "name": "Text", "slug": "text" },
+        { "color": "#F6E7D0", "name": "Background", "slug": "Background" },
+        { "color": "#DFC49F", "name": "Secondary", "slug": "secondary" },
+        { "color": "#EFD1AB", "name": "Primary", "slug": "primary" }
+      ]
+    }
+  },
+  "styles": {}
+}
