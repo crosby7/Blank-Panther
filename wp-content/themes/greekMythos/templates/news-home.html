@@ -1,0 +1,47 @@
+<!-- wp:template-part {"slug":"nav"} /-->
+
+<!-- wp:image -->
+<figure class="wp-block-image">
+  <img src="https://picsum.photos/id/49/1300/300" alt="Greece" />
+</figure>
+<!-- /wp:image -->
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">Mythos News</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>
+  Stay up to date with any new developments in the world of Greek Mythos! This
+  is where we'll share any news related to the myths, whether that be new
+  retellings or new discoveries about Ancient Greece.
+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Recent News</h3>
+<!-- /wp:heading -->
+
+<!-- wp:query {"queryId":2,"query":{"postType":"post","orderBy":"date","order":"desc","perPage":2,"taxQuery":{"category":[3]}}} -->
+<!-- wp:post-template -->
+<!-- wp:post-title {"level": 2} /-->
+<!-- wp:post-excerpt /-->
+<!-- wp:group {"layout": {"type": "flex", "flexWrap": "noWrap"}} -->
+<div class="wp-block-group">
+  <!-- wp:post-author-name /-->
+  <!-- wp:post-date /-->
+</div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination -->
+<!-- wp:query-pagination-previous /-->
+<!-- wp:query-pagination-numbers /-->
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:paragraph -->
+<p>Sorry, there were no news articles found.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results -->
+<!-- /wp:query -->
