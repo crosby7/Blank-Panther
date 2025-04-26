@@ -5,14 +5,23 @@
     "appearanceTools": true,
     "color": {
       "palette": [
-        { "color": "#fff68f", "name": "Primary", "slug": "primary" },
+        { "color": "#ffffff", "name": "white", "slug": "white" },
+        { "color": "#fff68f", "name": "Primary", "slug": "" },
         { "color": "#cd6600", "name": "Secondary", "slug": "secondary" },
-        { "color": "#8b2500", "name": "Accent", "slug": "accent" }
+        { "color": "#8b2500", "name": "Accent", "slug": "accent" },
+        { "color": "#000000", "name": "black", "slug": "black" }
       ]
     },
-    "layout": {
-      "contentSize": "820px",
-      "wideSize": "1300px"
+    "typography": {
+      "fontFamilies": []
     }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": ""
+    },
+    "color": {},
+    "elements": {},
+    "blocks": {}
   }
 }
