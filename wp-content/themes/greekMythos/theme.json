@@ -2,6 +2,17 @@
   "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
   "version": 3,
   "settings": {
-    "appearanceTools": true
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        { "color": "#fff68f", "name": "Primary", "slug": "primary" },
+        { "color": "#cd6600", "name": "Secondary", "slug": "secondary" },
+        { "color": "#8b2500", "name": "Accent", "slug": "accent" }
+      ]
+    },
+    "layout": {
+      "contentSize": "820px",
+      "wideSize": "1300px"
+    }
   }
 }
