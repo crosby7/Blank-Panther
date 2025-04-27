@@ -2,6 +2,79 @@
   "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
   "version": 3,
   "settings": {
-    "appearanceTools": true
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        { "color": "#ffffff", "name": "white", "slug": "white" },
+        { "color": "#fff68f", "name": "Primary", "slug": "primary" },
+        { "color": "#cd6600", "name": "Secondary", "slug": "secondary" },
+        { "color": "#8b2500", "name": "Accent", "slug": "accent" },
+        { "color": "#000000", "name": "black", "slug": "black" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Roboto, sans-serif",
+          "name": "Roboto",
+          "slug": "roboto"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "1200px"
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--roboto)"
+    },
+    "color": {},
+    "elements": {},
+    "blocks": {
+      "core/navigation": {
+        "color": {
+          "text": "var(--wp--preset--color--white)",
+          "background": "var(--wp--preset--color--accent)"
+        },
+        "typography": {
+          "fontSize": "1.2rem"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "10px",
+            "left": "20px",
+            "right": "20px",
+            "top": "10px"
+          }
+        }
+      },
+      "core/query": {
+        "color": {
+          "background": "var(--wp--preset--color--primary)"
+        },
+        "spacing": {
+          "padding": {
+            "left": "20px",
+            "right": "20px",
+            "top": "10px",
+            "bottom": "10px"
+          }
+        },
+        "border": {
+          "top": {
+            "color": "var(--wp--preset--color--accent)",
+            "style": "solid",
+            "width": "2px"
+          },
+          "bottom": {
+            "color": "var(--wp--preset--color--accent)",
+            "style": "solid",
+            "width": "2px"
+          },
+          "radius": "20px"
+        }
+      }
+    }
   }
 }
