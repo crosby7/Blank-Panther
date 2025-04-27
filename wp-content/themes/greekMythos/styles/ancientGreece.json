@@ -1,19 +1,47 @@
 {
   "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
   "version": 3,
-  "title": "Green",
+  "title": "Ancient Greece",
   "settings": {
     "color": {
       "palette": [
-        { "color": "#2ECC71", "name": "Primary", "slug": "primary" },
-        { "color": "#FA1B0A", "name": "Accent", "slug": "accent" },
+        { "color": "#e0ddd5", "name": "White", "slug": "white" },
+        { "color": "#283d70", "name": "Primary", "slug": "primary" },
         {
-          "color": "#E5ECF1",
-          "name": "Background",
-          "slug": "background"
+          "color": "#2e3546",
+          "name": "Secondary",
+          "slug": "secondary"
         },
-        { "color": "#000000", "name": "Text", "slug": "text" }
+        { "color": "#c6934b", "name": "Accent", "slug": "accent" }
       ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Lancelot, sans-serif",
+          "name": "Lancelot",
+          "slug": "lancelot"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--lancelot)"
+    },
+    "blocks": {
+      "core/navigation": {
+        "color": {
+          "background": "var(--wp--preset--color--primary)",
+          "text": "var(--wp--preset--color--white)"
+        }
+      },
+      "core/query": {
+        "color": {
+          "background": "var(--wp--preset--color--accent)",
+          "text": "var(--wp--preset--color--white)"
+        }
+      }
     }
   }
 }
