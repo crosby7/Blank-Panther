@@ -3,16 +3,48 @@
   "version": 3,
   "title": "Ancient Text",
   "settings": {
-    "appearanceTools": true,
     "color": {
       "palette": [
+        { "color": "#F3BC8C", "name": "Accent", "slug": "accent" },
+        { "color": "#A6977A", "name": "Text", "slug": "text" },
+        { "color": "#F6E7D0", "name": "Background", "slug": "background" },
+        { "color": "#DFC49F", "name": "Secondary", "slug": "secondary" },
+        { "color": "#EFD1AB", "name": "Primary", "slug": "primary" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
         {
-          "color": "",
-          "name": "",
-          "slug": ""
+          "fontFamily": "Tempus Sans ITC, sans-serif",
+          "name": "TempusSansITC",
+          "slug": "tempussansITC",
+          "fontFace": [
+            {
+              "fontFamily": "Tempus Sans ITC",
+              "src": ["file:./wp-content/uploads/fontsTRTempusSansITC.ttf"]
+            }
+          ]
         }
       ]
     }
   },
-  "styles": {}
+  "styles": {
+    "typography": {
+      "fontFamily": "Tempus Sans ITC"
+    },
+    "blocks": {
+      "core/navigation": {
+        "color": {
+          "background": "var:preset|color|accent",
+          "text": "var(--wp--preset--color--white)"
+        }
+      },
+      "core/query": {
+        "color": {
+          "background": "var(--wp--preset--color--accent)",
+          "text": "var(--wp--preset--color--white)"
+        }
+      }
+    }
+  }
 }
