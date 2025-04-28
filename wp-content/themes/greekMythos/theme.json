@@ -22,8 +22,14 @@
       ]
     },
     "layout": {
-      "contentSize": "1200px"
-    }
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true
+    },
+    "background": {}
   },
   "styles": {
     "typography": {
@@ -31,6 +37,12 @@
     },
     "color": {},
     "elements": {},
+    "spacing": {
+      "padding": {
+        "left": "40px",
+        "right": "40px"
+      }
+    },
     "blocks": {
       "core/navigation": {
         "color": {
@@ -73,6 +85,22 @@
             "width": "2px"
           },
           "radius": "20px"
+        }
+      },
+      "core/image": {
+        "dimensions": {
+          "maxWidth": "1200px"
+        },
+        "spacing": {
+          "margin": {
+            "left": "auto",
+            "right": "auto"
+          }
+        }
+      },
+      "core/paragraph": {
+        "dimensions": {
+          "maxWidth": "800px"
         }
       }
     }

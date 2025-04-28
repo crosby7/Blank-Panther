@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "title": "Ancient Greece",
+  "settings": {
+    "color": {
+      "palette": [
+        { "color": "#eeeeee", "name": "White", "slug": "white" },
+        { "color": "#cae1e1", "name": "Primary", "slug": "primary" },
+        {
+          "color": "#c6dddd",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        { "color": "#d8e5e5", "name": "Accent", "slug": "accent" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Helvetica, sans-serif",
+          "name": "Helvetica",
+          "slug": "helvetica"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--helvetica)"
+    },
+    "blocks": {
+      "core/navigation": {
+        "color": {
+          "background": "var(--wp--preset--color--secondary)",
+          "text": "var(--wp--preset--color--white)"
+        }
+      },
+      "core/query": {
+        "color": {
+          "background": "var(--wp--preset--color--accent)",
+          "text": "var(--wp--preset--color--white)"
+        }
+      }
+    }
+  }
+}
