@@ -1,17 +1,37 @@
 <!-- wp:template-part {"slug":"nav","theme":"greekMythos","area":"uncategorized"} /-->
 
-<!-- wp:heading {"level":1} -->
-<h1>Welcome to our Blog!</h1>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>Check out our recent blogs to learn more about Ancient Greek Myths!</p>
-<!-- /wp:paragraph -->
-
 <!-- wp:image -->
 <figure class="wp-block-image">
   <img src="https://picsum.photos/1380/300" alt="" />
 </figure>
 <!-- /wp:image -->
 
-<!-- wp:template-part {"slug":"footer"} /-->
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Welcome to our Blog!</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Check out our recent blogs to learn more about Ancient Greek Myths!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query {"queryId":12,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
+<div class="wp-block-query">
+  <!-- wp:post-template {"layout":{"type":"default","columnCount":3}} -->
+  <!-- wp:post-featured-image {"isLink":true,"align":"wide","style":{"border":{"width":"0px","style":"none","radius":"15px"}}} /-->
+
+  <!-- wp:post-title {"isLink":true} /-->
+
+  <!-- wp:post-author-name /-->
+
+  <!-- wp:post-excerpt /-->
+
+  <!-- wp:separator {"opacity":"css"} -->
+  <hr class="wp-block-separator has-css-opacity" />
+  <!-- /wp:separator -->
+
+  <!-- wp:post-date /-->
+  <!-- /wp:post-template -->
+</div>
+<!-- /wp:query -->
+
+<!-- wp:template-part {"slug":"footer","theme":"greekMythos"} /-->

@@ -1,7 +1,28 @@
 <!-- wp:template-part {"slug":"nav","theme":"greekMythos","area":"uncategorized"} /-->
 
-<!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading">Post page</h1>
-<!-- /wp:heading -->
+<!-- wp:post-title /-->
 
-<!-- wp:template-part {"slug": "footer"} -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group">
+  <!-- wp:post-author-name /-->
+  <!-- wp:post-date /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:image -->
+<figure class="wp-block-image">
+  <img src="https://picsum.photos/800/300" alt="" />
+</figure>
+<!-- /wp:image -->
+
+<!-- wp:post-content /-->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group">
+  <!-- wp:post-navigation-link {"type":"previous","label":"","arrow":"chevron"} /-->
+
+  <!-- wp:post-navigation-link {"arrow":"chevron"} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"greekMythos"} /-->
