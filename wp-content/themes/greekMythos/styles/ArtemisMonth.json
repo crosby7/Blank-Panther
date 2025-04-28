@@ -1,7 +1,7 @@
 {
   "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
   "version": 3,
-  "title": "Ancient Greece",
+  "title": "Artemis Month",
   "settings": {
     "color": {
       "palette": [
@@ -18,16 +18,22 @@
     "typography": {
       "fontFamilies": [
         {
-          "fontFamily": "Helvetica, sans-serif",
-          "name": "Helvetica",
-          "slug": "helvetica"
+          "fontFamily": "Avenir, sans-serif",
+          "name": "Avenir",
+          "slug": "avenir",
+          "fontFace": [
+            {
+              "fontFamily": "helvetica",
+              "src": ["file:./wp-content/uploads/fontsAvenir.ttc"]
+            }
+          ]
         }
       ]
     }
   },
   "styles": {
     "typography": {
-      "fontFamily": "var(--wp--preset--font-family--helvetica)"
+      "fontFamily": "var(--wp--preset--font-family--avenir)"
     },
     "blocks": {
       "core/navigation": {
