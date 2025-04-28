@@ -90,6 +90,11 @@
       "core/post-title": {
         "color": {
           "text": "var:preset|color|accent"
+        },
+        "spacing": {
+          "margin": {
+            "top": "40px"
+          }
         }
       },
       "core/post-author-name": {
@@ -112,6 +117,12 @@
               }
             }
           }
+        }
+      },
+      "core/post-featured-image": {
+        "dimensions": {
+          "maxWidth": "1200px",
+          "maxHeight": "300px"
         }
       },
       "core/image": {
