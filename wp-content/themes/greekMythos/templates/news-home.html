@@ -21,27 +21,28 @@
 <h3 class="wp-block-heading">Recent News</h3>
 <!-- /wp:heading -->
 
-<!-- wp:query {"queryId":2,"query":{"postType":"post","orderBy":"date","order":"desc","perPage":2,"taxQuery":{"category":[3]}}} -->
-<!-- wp:post-template -->
-<!-- wp:post-title {"level": 2} /-->
-<!-- wp:post-excerpt /-->
-<!-- wp:group {"layout": {"type": "flex", "flexWrap": "noWrap"}} -->
-<div class="wp-block-group">
-  <!-- wp:post-author-name /-->
-  <!-- wp:post-date /-->
+<!-- wp:query {"queryId":10,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false,"taxQuery":{"category":[3]}},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"},"layout":{"type":"default"}} -->
+<div class="wp-block-query">
+  <!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+  <!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}}},"layout":{"inherit":false}} -->
+  <div
+    class="wp-block-group"
+    style="
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      padding-left: 30px;
+    "
+  >
+    <!-- wp:post-title {"isLink":true} /-->
+
+    <!-- wp:post-excerpt {"moreText":"Read More","showMoreOnNewLine":false} /-->
+
+    <!-- wp:post-date /-->
+  </div>
+  <!-- /wp:group -->
+  <!-- /wp:post-template -->
 </div>
-<!-- /wp:group -->
-<!-- /wp:post-template -->
-
-<!-- wp:query-pagination -->
-<!-- wp:query-pagination-previous /-->
-<!-- wp:query-pagination-numbers /-->
-<!-- wp:query-pagination-next /-->
-<!-- /wp:query-pagination -->
-
-<!-- wp:query-no-results -->
-<!-- wp:paragraph -->
-<p>Sorry, there were no news articles found.</p>
-<!-- /wp:paragraph -->
-<!-- /wp:query-no-results -->
 <!-- /wp:query -->
+
+<!-- wp:template-part {"slug":"footer"} /-->
