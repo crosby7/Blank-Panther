@@ -15,9 +15,15 @@
     "typography": {
       "fontFamilies": [
         {
-          "fontFamily": "Roboto, sans-serif",
-          "name": "Roboto",
-          "slug": "roboto"
+          "fontFamily": "Cochin, sans-serif",
+          "name": "Cochin",
+          "slug": "cochin",
+          "fontFace": [
+            {
+              "fontFamily": "cochin",
+              "src": ["file:./wp-content/uploads/cochin.ttc"]
+            }
+          ]
         }
       ]
     },
@@ -33,9 +39,11 @@
   },
   "styles": {
     "typography": {
-      "fontFamily": "var(--wp--preset--font-family--roboto)"
+      "fontFamily": "var(--wp--preset--font-family--cochin)"
     },
-    "color": {},
+    "color": {
+      "background": "var(--wp--preset--color--secondary)"
+    },
     "elements": {},
     "spacing": {
       "padding": {
@@ -85,6 +93,11 @@
             "width": "2px"
           },
           "radius": "20px"
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": "var(--wp--preset--color--primary)"
         }
       },
       "core/post-title": {

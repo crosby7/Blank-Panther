@@ -7,6 +7,7 @@
       "palette": [
         { "color": "#eeeeee", "name": "White", "slug": "white" },
         { "color": "#cae1e1", "name": "Primary", "slug": "primary" },
+        { "color": "#000000", "name": "Text", "slug": "text" },
         {
           "color": "#c6dddd",
           "name": "Secondary",
@@ -23,7 +24,7 @@
           "slug": "avenir",
           "fontFace": [
             {
-              "fontFamily": "helvetica",
+              "fontFamily": "avenir",
               "src": ["file:./wp-content/uploads/fontsAvenir.ttc"]
             }
           ]
@@ -32,6 +33,9 @@
     }
   },
   "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--accent)"
+    },
     "typography": {
       "fontFamily": "var(--wp--preset--font-family--avenir)"
     },
@@ -39,13 +43,37 @@
       "core/navigation": {
         "color": {
           "background": "var(--wp--preset--color--secondary)",
-          "text": "var(--wp--preset--color--white)"
+          "text": "var(--wp--preset--color--black)"
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": "var(--wp--preset--color--black)"
         }
       },
       "core/query": {
         "color": {
           "background": "var(--wp--preset--color--accent)",
-          "text": "var(--wp--preset--color--white)"
+          "text": "var(--wp--preset--color--black)"
+        }
+      },
+      "core/post-title": {
+        "color": {
+          "text": "var:preset|color|black"
+        },
+        "spacing": {
+          "margin": {
+            "top": "40px"
+          }
+        }
+      },
+
+      "core/post-author-name": {
+        "color": {
+          "text": "var:preset|color|black"
+        },
+        "typography": {
+          "fontWeight": "700"
         }
       }
     }
