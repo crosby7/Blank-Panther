@@ -122,7 +122,7 @@
       "core/post-featured-image": {
         "dimensions": {
           "maxWidth": "1200px",
-          "maxHeight": "300px"
+          "maxHeight": "500px"
         }
       },
       "core/image": {

@@ -1,0 +1,54 @@
+01-05-2025 01:05:07 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
+01-05-2025 01:05:07 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Unable to create dir C:\Users\india\Local Sites\wp-final-project-cc\app\public/wp-content/uploads/newsletter/thumbnails/2025/04
+01-05-2025 01:05:07 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Requested size larger than the original one
+01-05-2025 01:05:07 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
+01-05-2025 01:05:07 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Requested size larger than the original one
+01-05-2025 01:05:07 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
+01-05-2025 01:05:07 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Requested size larger than the original one
+01-05-2025 01:05:27 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
+01-05-2025 01:05:27 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
+01-05-2025 01:05:27 - ERROR - 8.8.1 - 3.0 MB/256 MB - admin > Requested size larger than the original one
+01-05-2025 01:05:27 - ERROR - 8.8.1 - 3.0 MB/256 MB - admin > Requested size larger than the original one
+01-05-2025 01:05:27 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
+01-05-2025 01:05:27 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
+01-05-2025 01:05:35 - ERROR - 8.8.1 - 2.7 MB/256 MB - admin > Array
+(
+    [0] => 1200
+    [1] => 0
+)
+
