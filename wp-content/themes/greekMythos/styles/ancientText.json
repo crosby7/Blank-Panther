@@ -32,11 +32,19 @@
     "typography": {
       "fontFamily": "Tempus Sans ITC"
     },
+    "color": {
+      "background": "var(--wp--preset--color--accent)"
+    },
     "blocks": {
       "core/navigation": {
         "color": {
-          "background": "var:preset|color|accent",
-          "text": "var(--wp--preset--color--white)"
+          "background": "var:preset|color|background",
+          "text": "var(--wp--preset--color--text)"
+        }
+      },
+      "core/heading": {
+        "color": {
+          "text": "var(--wp--preset--color--text)"
         }
       },
       "core/query": {
@@ -45,6 +53,7 @@
           "text": "var(--wp--preset--color--white)"
         }
       }
+      
     }
   }
 }
