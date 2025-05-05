@@ -143,3 +143,11 @@ Style Variant
 - Artemis Monthly Web Theme
 
 <!-- Style Variant -->
+
+Contact Form
+
+- The contact form is a way for our users to contact the people who run the site for any questions they may have or suggestions for articles and posts. The user will have to enter their First Name, Last Name, Email, and the message they wanted to send off. Then, one of the leaders of the site can check for any messages, and respond to them in a timely manner.
+
+Newsletter
+
+- Our newsletter will be a way for our users to be informed about our new news section of the site. This information will be provided to the site's subscribers! The user can sign up for the newsletter on our site, to find out updates regarding our news section!

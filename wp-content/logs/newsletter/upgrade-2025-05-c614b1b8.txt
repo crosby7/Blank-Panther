@@ -1,0 +1,39 @@
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Start upgrade from 8.8.0
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+    [wp_newsletter_logs.status] => Changed type of wp_newsletter_logs.status from int(11) to int
+)
+
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.7 MB/256 MB - Panther > Backing up options of 8.8.0
+05-05-2025 01:25:55 - INFO  - 8.8.1 - 5.9 MB/256 MB - Panther > End
